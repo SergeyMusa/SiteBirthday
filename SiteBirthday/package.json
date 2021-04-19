@@ -1,0 +1,24 @@
+{
+  "name": "sitebirthday",
+  "version": "1.0.0",
+  "description": "begin npm",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SergeyMusa/SiteBirthday.git"
+  },
+  "keywords": [
+    "site",
+    "my",
+    "famely"
+  ],
+  "author": "MuSa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SergeyMusa/SiteBirthday/issues"
+  },
+  "homepage": "https://github.com/SergeyMusa/SiteBirthday#readme"
+}

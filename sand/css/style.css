@@ -1,0 +1,121 @@
+
+header{
+  position: fixed;
+  width: 100%;
+  /*text-align: center;*/
+  font-size: 36px;
+  line-height: 108px;
+  height: 108px;
+  background: #335C7D;
+  color: #fff;
+  font-family: 'PT Sans', sans-serif;
+  }
+
+
+header.sticky {
+font-size: 24px;
+line-height: 48px;
+height: 48px;
+background: #be7b0e;
+text-align: left;
+padding-left: 20px;
+}
+
+transition: all 0.4s ease;
+
+/*header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+*/
+
+.logo {
+  margin-right: 30px;
+}
+
+.menu {
+  flex-grow: 1;
+}
+
+.menu ul {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 2px 0 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 18px;
+  list-style: none;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+
+.menu a,
+.menu .active {
+  display: block;
+  padding: 8px 10px;
+  text-transform: uppercase;
+  letter-spacing: .27em;
+}
+
+.menu a {
+  color: #000;
+  text-decoration: none;
+}
+
+.menu .active {
+  color: #fff;
+  background-color: #ff3d00;
+  border-radius: 8px;
+}
+
+.tel {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.tel a {
+  color: #000;
+  text-decoration: none;
+}
+
+h2{
+	font-size: 34px;
+  text-align: center;
+	text-transform: uppercase;
+	font-weight: 100;
+	line-height: 2;
+	color: #2c3e50;
+}
+p{
+	margin-bottom: 2rem;
+	line-height: 2;
+	color: #7f8c8d;
+}
+.wrapper{
+	width: 900px;
+	margin: 0 auto;
+}
+section{
+	padding: 20px;
+	margin-bottom: 40px;
+	background-color: #fff;
+	@include border-radius(4px);
+	@include box-shadow(0 1px 0 rgba(0,0,0,.2));
+}
+
+.footer {
+  height:150px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(11, 11, 44);
+  }

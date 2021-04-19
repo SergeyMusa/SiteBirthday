@@ -1,0 +1,18 @@
+#.gitignore
+.gitignore
+
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# git
+.gitconfig
+
+# log`s
+*.log
+
+#node_modules
+node_modules
+/node_modules/
